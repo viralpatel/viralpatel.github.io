@@ -6,7 +6,7 @@ if ('serviceWorker' in navigator) {
             userVisibleOnly: true
         }).then(function(sub) {
             console.log('endpoint:', sub.endpoint);
-			$('body').append(sub.endpoint);
+			$('#content').prepend(sub.endpoint);
         });
     }).catch(function(error) {
         console.log(':^(', error);
