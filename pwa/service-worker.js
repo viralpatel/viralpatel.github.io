@@ -38,7 +38,7 @@ self.addEventListener('push', function(event) {
   event.waitUntil(
     self.registration.showNotification(title, {
       body: 'The Message',
-      icon: 'images/icon.png',
+      icon: 'app/images/launcher-icon-2x.png',
       tag: 'my-tag'
     }));
 });
