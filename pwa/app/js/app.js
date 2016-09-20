@@ -5,10 +5,11 @@ if('serviceWorker' in navigator) {
 }
 
 
-var cacheName = 'infosys-pwa';  
+var cacheName = 'infosys-pwa1';  
 var filesToCache = [  
                     '/pwa/',  
                     '/pwa/index.html',  
+                    '/pwa/app/api.json',  
                     '/pwa/app/js/app.js',  
                     '/pwa/app/css/index.css',  
                     '/pwa/assets/materialize/css/materialize.min.css',  
