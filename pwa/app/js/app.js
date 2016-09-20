@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
     console.log('Service Worker is supported');
-    navigator.serviceWorker.register('pwa/service-worker.js').then(function(reg) {
+    navigator.serviceWorker.register('/pwa/service-worker.js').then(function(reg) {
         console.log(':^)', reg);
         reg.pushManager.subscribe({
             userVisibleOnly: true
