@@ -7,13 +7,13 @@ if('serviceWorker' in navigator) {
 
 var cacheName = 'infosys-pwa';  
 var filesToCache = [  
-                    '/PWA/',  
-                    '/PWA/index.html',  
-                    '/PWA/app/js/app.js',  
-                    '/PWA/app/css/index.css',  
-                    '/PWA/assets/materialize/css/materialize.min.css',  
-                    '/PWA/assets/jquery-3.1.0/jquery-3.1.0.min.js',  
-                    '/PWA/assets/materialize/js/materialize.min.js'
+                    '/pwa/',  
+                    '/pwa/index.html',  
+                    '/pwa/app/js/app.js',  
+                    '/pwa/app/css/index.css',  
+                    '/pwa/assets/materialize/css/materialize.min.css',  
+                    '/pwa/assets/jquery-3.1.0/jquery-3.1.0.min.js',  
+                    '/pwa/assets/materialize/js/materialize.min.js'
                   ];
 
 
