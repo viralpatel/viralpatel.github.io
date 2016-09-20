@@ -5,9 +5,13 @@ if ('serviceWorker' in navigator) {
         reg.pushManager.subscribe({
             userVisibleOnly: true
         }).then(function(sub) {
+			try{
             console.log('endpoint:', sub.endpoint);
 			alert(sub.endpoint);
 			$('#content').prepend(sub.endpoint);
+			}catch(e){
+				console.error(e);
+			}
         });
     }).catch(function(error) {
         console.log(':^(', error);
