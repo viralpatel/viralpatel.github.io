@@ -8,7 +8,7 @@ if ('serviceWorker' in navigator) {
 			try{
             console.log('endpoint:', sub.endpoint);
 			//alert(sub.endpoint);
-			//$('#content').prepend(sub.endpoint);
+			   $('#content').prepend(sub.endpoint);
 			}catch(e){
 				console.error(e);
 			}
