@@ -1,3 +1,13 @@
+if ('serviceWorker' in navigator) {
+    console.log('Service Worker is supported');
+    navigator.serviceWorker.register('/pwa/service-worker.js').then(function(reg) {
+        console.log(':^)', reg);
+    }).catch(function(error) {
+        console.log(':^(', error);
+    });
+}
+
+
 $(function() {
 
   $('#loader').show();
