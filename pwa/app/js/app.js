@@ -1,4 +1,4 @@
-jQuery(function() {
+$(function() {
 
   $('#loader').show();
 
@@ -13,7 +13,6 @@ jQuery(function() {
 function populateData(items) {
 
   for (var i in items) {
-
     var card = $('<div/>').addClass('card').attr('data-link', items[i].link)
       .append($('<div/>').addClass('card-content')
         .append(
@@ -21,7 +20,5 @@ function populateData(items) {
           $('<p/>').text(items[i].description)
         ))
       .appendTo('#items');
-
   }
-
 };
