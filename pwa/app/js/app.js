@@ -1,6 +1,5 @@
 jQuery(function() {
 
-
   $('#loader').show();
 
   jQuery.get('/pwa/app/api.json',
